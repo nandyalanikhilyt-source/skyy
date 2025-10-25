@@ -1,7 +1,6 @@
-#include<iostream>
-int main()
+#include<iostream>  // Include input/output stream library
+int main()          // Main function - program starts here
 {
-  std::cout<<"Hello World!";
-
-return 0;  
+    std::cout << "Hello World!";  // Print to console
+    return 0;       // Exit program successfully
 }
