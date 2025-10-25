@@ -1,0 +1,56 @@
+#include<iostream>
+#include<string> //For string type
+
+int main()
+{
+//******* INTEGER TYPES *******
+  int age = 19;  // int:Whole number
+  short smallnumber = 100;  //short:Smaller integer
+  long bignumber = 1000000;  //long:larger integer 
+  long long hugenumber= 10000000000; // long long:Even larger integer
+
+//******* FLOATING POINT TYPES *******
+float price= 19.23f;   //Decimal numbers(single precision)
+double distance = 12.33; //Decimal numbers(double precision)
+
+//******* CHARACTER TYPE *******
+char grade = 'N';   //single character
+char symbol = '$';
+
+//******* STRING TYPE *******
+std::string name= "NIKHIL";  //Text/String characters
+std::string message ="HI!!";
+
+//******* BOOLEAN TYPE *******
+bool isCppfun = true;   //true or false
+bool isPythonbetter = false;
+
+//******* CONSTANTS *******
+const double PI = 3.14159;  //Constant value(Can't be changed)
+const int dayinweek = 7;
+
+
+//******* DISPLAYING ALL OUTPUTS *******
+    std::cout << "Integer (int): " << age << std::endl;
+    std::cout << "Short: " << smallnumber << std::endl;
+    std::cout << "Long: " << bignumber << std::endl;
+    std::cout << "Long Long: " << hugenumber << std::endl;
+    
+    std::cout << "\nFloating Point (float): " << price << std::endl;
+    std::cout << "Double: " << distance << std::endl;
+    
+    std::cout << "\nCharacter (char): " << grade << std::endl;
+    std::cout << "Another char: " << symbol << std::endl;
+    
+    std::cout << "\nBoolean (bool): " << isCppfun << " (true=1)" << std::endl;
+    std::cout << "Another bool: " << isPythonbetter << " (false=0)" << std::endl;
+    
+    std::cout << "\nString: " << name << std::endl;
+    std::cout << "Message: " << message << std::endl;
+    
+    std::cout << "\nConstants:" << std::endl;
+    std::cout << "PI: " << PI << std::endl;
+    std::cout << "Days in week: " << dayinweek << std::endl;
+
+return 0;
+}
