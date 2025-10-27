@@ -1,0 +1,11 @@
+#include<iostream>
+namespace first{
+int x= 25;
+}
+
+int main(){
+int x= 33;  
+std::cout<<x;
+std::cout<<first::x;
+return 0;
+}
