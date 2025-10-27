@@ -1,0 +1,11 @@
+#include<iostream>
+
+int main(){
+std::cout<<"Using backslash n: \n";
+std::cout<<"hello \n hi \n how are you \n";
+
+std::cout<<"Using std::endl";
+std::cout<<"hello"<<std::endl;
+std::cout<<"hi"<<std::endl;
+std::cout<<"how are you"<<std::endl;
+}
